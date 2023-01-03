@@ -39,13 +39,13 @@ public class MenuController {
 				System.out.println("학생을 찾으세요");
 				Student student = si.findStudent(students);
 				if(student !=null) {
-					sv.viewOne(student);
+					sv.view(student);
 				}else {
 					System.out.println("그런 학생은 없어요");
 				}
 				break;
 			case 3:
-				sv.viewList(students); //인자값
+				sv.view(students); //인자값
 				break;
 			case 4:
 				students = si.setStudent(students); //대입을 해주지 않으면 기존 주소값이 그대로 이기 때문에 대입을 해주어 변경시켜줌 

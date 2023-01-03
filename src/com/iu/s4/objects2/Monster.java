@@ -3,8 +3,17 @@ package com.iu.s4.objects2;
 public class Monster {
 	
 	//멤버변수, instance 변수
-	int power;
+	int power = 100;
 	int hp;
+	
+	//생성자 Constructor
+	public Monster() {
+		//매개변수가 없는 생성자 -> 기본생성자,default Constructor
+		this.power = 50;
+		this.hp = 60;
+		System.out.println("생성자 실행");
+		//객체를 만들때 딱 한번 호출
+	}
 	
 	//멤버 메서드, instance method (행위)
 	
@@ -15,6 +24,10 @@ public class Monster {
 		}else {
 			return false;
 		}
+	}
+	
+	public void info(int a) { //오버로딩
+		
 	}
 	//공격
 	

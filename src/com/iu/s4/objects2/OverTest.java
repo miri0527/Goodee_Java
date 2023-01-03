@@ -4,7 +4,7 @@ public class OverTest {
 	
 	//매개변수 두개를 받아서 + 한 결과를 return
 	//오버로딩 ->이름, 매개변수 타입
-	//public void hap(int b, int a) -> 에러
+	//public void hap(int b, int a) {} -> 에러
 	
 	
 	public int hap(int a, int b) {

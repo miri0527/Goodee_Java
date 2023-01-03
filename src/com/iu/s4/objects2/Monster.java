@@ -15,6 +15,10 @@ public class Monster {
 		//객체를 만들때 딱 한번 호출
 	}
 	
+	public Monster(int power) { //생성자 오버로딩
+		
+	}
+	
 	//멤버 메서드, instance method (행위)
 	
 	public boolean checkValue(Monster monster) {  //boolean -> return타입 

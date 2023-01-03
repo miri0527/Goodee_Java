@@ -18,7 +18,7 @@ public class StudentView {
 //			System.out.println("Total: " + students[i].total);
 //			System.out.println("Avg: " + students[i].avg);
 			
-			view(students[i]);
+			this.view(student);
 			
 			
 		}

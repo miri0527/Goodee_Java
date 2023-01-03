@@ -6,6 +6,9 @@ public class OverTestMain {
 		OverTest ot = new OverTest();
 		
 		ot.hap("a",0);
+		
+		//public void println(int ) {}
+		//public void println(String ) {}
 
 	}
 

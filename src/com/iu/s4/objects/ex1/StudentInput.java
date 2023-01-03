@@ -8,7 +8,7 @@ public class StudentInput {
 	//학생의 번호를 입력받아서 일치하는 학생을 리턴
 	//없으면 null
 	
-	public Student findStudent(Student [] students) {
+	public Student findStudent(Student [] students) { //메서드에 없는 외부 데이터를 집어넣는것 -> 매개변수
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("학생 번호를 입력받으세요");
 		int num2 = scanner.nextInt();

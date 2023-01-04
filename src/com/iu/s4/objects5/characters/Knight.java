@@ -13,6 +13,4 @@ public class Knight extends Character implements AttackAble{
 		
 	}
 	
-	
-
 }

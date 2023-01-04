@@ -2,17 +2,26 @@ package com.iu.s4.objects2;
 
 public class Car {
 	
-	String company;
+	String company = "BMW"; 
 	String name;
 	int price;
 	String color;
 	
+	
+	{
+		//초기화 블럭 -> 멤버 변수의 초기화 때 보통 사용
+		System.out.println("초기화 블럭: " + this.company);
+		this.company = "AUDI";
+	}
+	
 	public Car() {
-		this("Black"); //생성자에서 다른 생성자 호출
-//		this.company = "Kia";
-//		this.name = "스포티치";
-//		this.price = 3500;
-//		this.color = "Black";
+		//this("Black"); //생성자에서 다른 생성자 호출
+		System.out.println("생성자 : " + this.company);
+		this.company = "Kia";
+		this.name = "스포티치";
+		this.price = 3500;
+		
+		this.color = "Black";
 	}
 	
 	public Car(String color) {

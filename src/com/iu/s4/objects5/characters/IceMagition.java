@@ -8,10 +8,6 @@ public class IceMagition extends Magition {
 		
 	}
 
-	@Override
-	public void attack() {
-		// TODO Auto-generated method stub
-		
-	}
+	
 
 }

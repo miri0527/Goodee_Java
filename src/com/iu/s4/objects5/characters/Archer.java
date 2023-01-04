@@ -1,6 +1,6 @@
 package com.iu.s4.objects5.characters;
 
-public class Archer extends Character { //상속은 class간의 관계를 설정
+public class Archer extends Character implements AttackAble{ //상속은 class간의 관계를 설정 인터페이스는 여러개 implements 가능
 	
 	private int dex;
 	
@@ -11,6 +11,7 @@ public class Archer extends Character { //상속은 class간의 관계를 설정
 	
 	@Override
 	public void attack() {
+		// TODO Auto-generated method stub
 		
 	}
 	
@@ -31,6 +32,10 @@ public class Archer extends Character { //상속은 class간의 관계를 설정
 	public void setDex(int dex) {
 		this.dex = dex;
 	}
+
+
+
+
 
 
 	

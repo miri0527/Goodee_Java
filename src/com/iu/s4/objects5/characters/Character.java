@@ -1,6 +1,6 @@
 package com.iu.s4.objects5.characters;
 
-public class Character {
+public abstract class Character {
 	
 	private String name;
 	private int hp;
@@ -8,9 +8,7 @@ public class Character {
 	
 	public Character() {} //완벽하게 알기 전까지는 기본 생성자 생성해놓는게 좋음
 	
-	public void attack() {
-		System.out.println("공격");
-	}
+	
 	
 	public String getName() {
 		return name;

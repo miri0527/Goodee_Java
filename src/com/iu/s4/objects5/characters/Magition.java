@@ -16,9 +16,9 @@ public abstract class Magition extends Character {
 	}
 	
 	public abstract void spell();
-
-
-
+	
+	
+	
 	
 	
 }

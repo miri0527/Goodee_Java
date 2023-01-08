@@ -4,7 +4,6 @@ public class LoopFor1_ex1 {
 
 	public static void main(String[] args) {
 		//0에서 100미만 사이의 짝수만 출력
-		
 		//1.첫번째 방법
 		for(int i=0; i<100; i+=2) {  
 			System.out.println(i);

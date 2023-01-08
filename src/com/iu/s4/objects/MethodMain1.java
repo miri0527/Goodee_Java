@@ -8,8 +8,10 @@ public class MethodMain1 {
 		MethodTest2 mt2 = new MethodTest2();
 		MethodTest3 mt3 = new MethodTest3();
 		int salary = 3000000;
+		System.out.println("초기값: " + salary);
 		//호출시 매개변수로 보내는 값 -> 인자값
-		mt3.t3(salary,0.95);
+		salary =  mt3.t3(salary,0.95); //변수에 값을 집어넣지 않으면 값을 받지 못해서 없어짐
+		System.out.println("Return : " + salary);
 		
 		Sword sword = new Sword(); //Sword 클래스에서 Sword 변수를 가져오기 위하여 객체 선언
 		sword.name = "집행검";

@@ -30,22 +30,22 @@ public class LoopFor3_ex1 {
 //			}		
 //		}
 		
-//		for(int b=0; b<60; b++) {
-//			for(int s=0; s<60; s++) {
-//				System.out.println(b + "분 " + s+ "초");
-//				
-//				if(miniute == b && second == s) {
-//					//s=60;
-//					//b=60;
-//					check = true;
-//					break;
-//				}
-//			}
-//			
-//			if(check) {
-//				break;
-//			}
-//		}
+		for(int b=0; b<60; b++) {
+			for(int s=0; s<60; s++) {
+				System.out.println(b + "분 " + s+ "초");
+				
+				if(miniute == b && second == s) {
+					//s=60;
+					//b=60;
+					check = true;
+					break;
+				}
+			}
+			
+			if(check) {
+				break;
+			}
+		}
 
 	}
 

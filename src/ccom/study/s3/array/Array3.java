@@ -11,13 +11,13 @@ public class Array3 {
 		
 		//배열은 한번 만들어진 크기는 줄이거나 늘릴수가 없음
 		 
-		//얕은 복사
+		//얕은 복사 -> 크기가 아닌 주소값만 대입
 		ar1 = ar2;
 		ar2 = ar1;
 		
 		System.out.println(ar1.length);
 		System.out.println(ar2.length);
-		
+		System.out.println("--------------");
 		
 		for(int i=0; i<ar1.length; i++) {
 			System.out.println(ar1[i]);

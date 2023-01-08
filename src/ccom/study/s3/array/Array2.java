@@ -21,7 +21,6 @@ public class Array2 {
 		for(int i=0; i<ar2.length; i++) {
 			System.out.println(i+1 + " 번째 숫자를 입력");
 			ar2[i] = scanner.nextInt();
-			
 		}
 		
 		for(int i=0; i<ar2.length; i++) {

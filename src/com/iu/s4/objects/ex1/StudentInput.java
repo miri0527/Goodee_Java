@@ -11,7 +11,7 @@ public class StudentInput {
 	public Student findStudent(Student [] students) { //메서드에 없는 외부 데이터를 집어넣는것 -> 매개변수
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("학생 번호를 입력받으세요");
-		int num2 = scanner.nextInt();
+		int num2 = scanner.nextInt(); 
 		
 		Student student = new Student();
 		
@@ -53,7 +53,7 @@ public class StudentInput {
 				newStudents[i] = students[i];
 			}
 			
-			newStudents[students.length] = student;
+			newStudents[students.length] = student; //마지막 인덱스에 대입
 			return newStudents;
 		
 	}
@@ -80,12 +80,19 @@ public class StudentInput {
 			System.out.println(i+1 + "번째 수학 점수를 입력하세요");
 			student.eng = scanner.nextInt();
 			
-			students[i] = student;
-			
 			student.total = student.kor + student.eng + student.math;
 			student.avg = student.total / students.length;
+			
+			students[i] = student;
+			
+		}
+		
+		for(int i=0; i<students.length; i++) {
+			student = new Student();
+			student = students[i];
+			
 			System.out.println(i+1 + "번째 학생의 총점은 " + student.total);
-			System.out.println(i+1 + "번쨰 학생의 평균은 "+ student.avg);
+			System.out.println(i+1 + "번째 학생의 평균은 "+ student.avg);
 		}
 		
 	}

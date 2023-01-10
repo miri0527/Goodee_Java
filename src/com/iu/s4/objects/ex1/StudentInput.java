@@ -64,8 +64,10 @@ public class StudentInput {
 		//총점 평균
 		//학생 객체를 배열에 대입
 	
-	public void setAllStudents(Student [] students) {
-		
+	public void setAllStudents(Student[] students) {
+		for(int i=0; i<students.length; i++) {
+			
+		}
 	}
 	
 	

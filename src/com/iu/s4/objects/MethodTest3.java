@@ -2,7 +2,7 @@ package com.iu.s4.objects;
 
 public class MethodTest3 {
 	
-	public void t3(int salary, double tax) { 
+	public void t3(int salary, double tax) {  //tax -> mt3.t3(salary,0.95); -> 변수이름은 같지 않아도됨
 		//실급여를 계산하는 메서드
 		salary = (int)(salary*tax);
 		System.out.println("T3: " + salary);

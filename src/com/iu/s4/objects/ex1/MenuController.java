@@ -15,7 +15,7 @@ public class MenuController {
 		boolean check = true;
 		System.out.println("학생 수를 입력하세요");
 		int count = scanner.nextInt();
-		Student [] students = new Student[count];
+		Student [] students = new Student[count]; //Student타입을 받기 위한 배열
 		
 		StudentView sv = new StudentView();
 		StudentInput si = new StudentInput();

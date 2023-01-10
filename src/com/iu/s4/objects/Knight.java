@@ -1,6 +1,7 @@
 package com.iu.s4.objects;
 
-public class Knight {
+public class Knight { //DTO
+	
 	
 	//이름, hp, 힘, 체력, 민첩, 지식
 	

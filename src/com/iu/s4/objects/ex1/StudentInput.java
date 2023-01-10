@@ -65,9 +65,29 @@ public class StudentInput {
 		//학생 객체를 배열에 대입
 	
 	public void setAllStudents(Student[] students) {
+		Scanner scanner= new Scanner(System.in);
+			Student student;
 		for(int i=0; i<students.length; i++) {
+			student = new Student(); //Student에서 들고오기
+			System.out.println(i+1 + "번째 학생 이름을 입력하세요");
+			student.name = scanner.next();
+			System.out.println(i+1 + "번째 번호를 입력하세요");
+			student.num = scanner.nextInt();
+			System.out.println(i+1 + "번째 국어 점수를 입력하세요");
+			student.kor = scanner.nextInt();
+			System.out.println(i+1 + "번째 영어 점수를 입력하세요");
+			student.eng = scanner.nextInt();
+			System.out.println(i+1 + "번째 수학 점수를 입력하세요");
+			student.eng = scanner.nextInt();
 			
+			students[i] = student;
+			
+			student.total = student.kor + student.eng + student.math;
+			student.avg = student.total / students.length;
+			System.out.println(i+1 + "번째 학생의 총점은 " + student.total);
+			System.out.println(i+1 + "번쨰 학생의 평균은 "+ student.avg);
 		}
+		
 	}
 	
 	

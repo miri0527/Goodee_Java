@@ -64,7 +64,7 @@ public class LoopFor3_ex2 {
 			}
 			
 			for(int j=0; j<count; j++) {
-				System.out.println(j + "번째 총알");
+				System.out.println(j+1 + "번째 총알");
 			}
 		}
 		

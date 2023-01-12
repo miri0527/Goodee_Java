@@ -17,9 +17,9 @@ public class ObjectMain3 {
 		Student[] students = new Student[count];
 		//Student[] students2 = new Student[count];
 		
-			Student student; //내가 원하는 수 만큼 객체 생성
+	    Student student; //내가 원하는 수 만큼 객체 생성
 		for(int i=0; i<students.length; i++) {
-			student = new Student();
+			student = new Student(); //students.length의 개수만큼 객체 생성해야함
 			System.out.println(i+1 + "번째 학생의 이름을 입력하세요");
 			
 			student.name = scanner.next();

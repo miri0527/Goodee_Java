@@ -13,7 +13,7 @@ public class MethodMain1 {
 		salary =  mt3.t3(salary,0.95); //변수에 값을 집어넣지 않으면 값을 받지 못해서 없어짐
 		System.out.println("Return : " + salary);
 
-		mt3.t3(salary,0.95);
+		mt3.t3(salary,0.95); //return 해주지 않았을 때
 		mt.t1();
 		mt.t2();
 

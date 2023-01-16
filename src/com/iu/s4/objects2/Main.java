@@ -10,7 +10,8 @@ public class Main {
 		
 		System.out.println(n);
 		
-		int [] ar = returnTest.t3();
+		int [] r = returnTest.t3();
+		
 
 	}
 

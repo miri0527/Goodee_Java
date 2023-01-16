@@ -19,11 +19,20 @@ public class ReturnTest {
 		return random.nextInt(50); //0~50 미만
 	}
 	
-	public int [] t3() {
+//	public int [] t3() {
+//		int [] a = {1,2,3};
+//		for(int i=0; i<a.length; i++) {
+//			System.out.print(a[i] + " ");
+//		}
+//		return a;
+//	}
+	
+	public int[] t3() {
 		int [] a = {1,2,3};
 		for(int i=0; i<a.length; i++) {
-			System.out.print(a[i] + " ");
+			System.out.println(a[i] + " ");
 		}
 		return a;
 	}
+	
 }

@@ -11,7 +11,7 @@ public class Card {
 	public static int size = 10;
 	
 	//instance 초기화 블럭
-	{}
+	
 	
 	//static 초기화 블럭
 	static {

@@ -15,14 +15,14 @@ public class StudentInput {
 		
 		Student student = new Student();
 		
-		for(int i=0; i<students.length; i++) {
+		for(int i=0; i<students.length; i++) { //1.최미리 2.안녕
 			if(students[i].num == num2) {
-				student = students[i];
+				student = students[i]; //
 				return student;
 			}
 		}
 		return student;
-		
+		 
 	}
 	
 	//setStudent -> 메서드
@@ -30,7 +30,7 @@ public class StudentInput {
 	//총점 평균
 
 	
-	public Student[] setStudent(Student [] students) {
+	public Student [] setStudent(Student [] students) {
 		Scanner scanner = new Scanner(System.in);
 		Student student = new Student();
 			
@@ -88,11 +88,11 @@ public class StudentInput {
 		}
 		
 		for(int i=0; i<students.length; i++) {
-			student = new Student();
-			student = students[i];
+//			student = new Student();
+//			student = students[i];
 			
-			System.out.println(i+1 + "번째 학생의 총점은 " + student.total);
-			System.out.println(i+1 + "번째 학생의 평균은 "+ student.avg);
+			System.out.println(i+1 + "번째 학생의 총점은 " + students[i].total);
+			System.out.println(i+1 + "번째 학생의 평균은 "+ students[i].avg);
 		}
 		
 	}

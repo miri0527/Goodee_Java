@@ -6,7 +6,7 @@ public class MenuController {
 
 	//start
 			//1. 학생 정보 입력
-			//2. 수정
+			//2. 학생 찾기
 			//3. 학생 전체 정보 출력
 			//4. 종료
 	

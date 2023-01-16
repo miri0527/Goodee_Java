@@ -8,8 +8,8 @@ public class Monster {
 	
 	//생성자 Constructor
 	public Monster() {
-		//매개변수가 없는 생성자 -> 기본생성자,default Constructor
-		this.power = 50;
+		//매개변수가 없는 생성자 -> 기본생성자,default Constructor,초기화 할 때 사용
+		this.power = 50; 
 		this.hp = 60;
 		System.out.println("생성자 실행");
 		//객체를 만들때 딱 한번 호출
@@ -33,7 +33,6 @@ public class Monster {
 	public void info(int a) { //오버로딩
 		
 	}
-	//공격
 	
 	//어슬렁
 	public void info() {
@@ -46,6 +45,8 @@ public class Monster {
 		
 		this.attack(); //atack메서드 호출 , this 생략가능
 	}
+	
+	//공격
 	
 	public void attack() {
 		System.out.println("공격합니다");
